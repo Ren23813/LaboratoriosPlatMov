@@ -153,7 +153,7 @@ fun PagPrincipal() {
         }
     }
     Column (modifier = Modifier
-        .weight(1f)
+        .weight(1.3f)
         .fillMaxWidth()
         .padding(12.dp), horizontalAlignment = Alignment.Start, verticalArrangement = Arrangement.SpaceBetween){
         Row (Modifier.fillMaxWidth(),horizontalArrangement = Arrangement.Absolute.SpaceBetween){
