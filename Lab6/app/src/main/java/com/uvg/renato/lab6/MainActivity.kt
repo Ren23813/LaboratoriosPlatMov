@@ -138,7 +138,7 @@ fun PagPrincipal() {
         .padding(10.dp)
     ,horizontalAlignment = Alignment.CenterHorizontally
         ) {
-    Text(text = "Renato Manuel Rojas Roldan", textAlign = TextAlign.Center, modifier = Modifier.weight(0.4f),style = MaterialTheme.typography.headlineLarge)
+    Text(text = "Renato Manuel Rojas Roldan", textAlign = TextAlign.Center, modifier = Modifier.weight(0.6f),style = MaterialTheme.typography.headlineLarge)
     Row (modifier = Modifier.weight(1f), horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.CenterVertically){
         Button(onClick = { number-- and decrementos++ and cambios++ and addToList(list,number);ultimaAccion=false }, modifier = Modifier
             .clip(CircleShape)
